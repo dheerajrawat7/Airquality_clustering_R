@@ -17,7 +17,7 @@ kmeans_result
 kmeans_result$cluster
 
 
-#plotting the cluster for k = 3 
+#plotting the cluster for k = 2
 plot(airquality[,c("Wind","Temp")],col= kmeans_result$cluster,
      main="kmeans_clustering with k=2",xlab="WIND",ylab="TEMP")   
 
