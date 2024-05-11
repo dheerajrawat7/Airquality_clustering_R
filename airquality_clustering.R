@@ -1,6 +1,7 @@
 
 #loading the dataset
 data("airquality")
+#checking the structure of the dataset 
 str(airquality)
 
 #calling the libraries
